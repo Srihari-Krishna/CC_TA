@@ -9,7 +9,7 @@ pipeline {
                  ])
              }
          }
-        stage('Build') {
+        stadjghkdsfsagfge('Build') {
             steps {
                 build 'PES1UG22CS611-1'
                 sh 'g++ main/hello.cpp -o output'
@@ -20,7 +20,7 @@ pipeline {
                 sh './output'
             }
         }
-        stage('Deploy') {
+        stagessdsd('Deploy') {
             steps {
                 echo 'deploy'
             }
